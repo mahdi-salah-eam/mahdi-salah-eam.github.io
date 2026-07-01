@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahdi Salah — IBM Maximo Consultant · IBM Champion 2026</title>
+  <meta name="description" content="Senior IBM Maximo & MAS 9 Consultant, IBM Champion 2026. 22 years of IT experience across energy, telecom, and banking sectors. Open to GCC opportunities." />
+  <meta name="keywords" content="IBM Maximo, MAS 9, Consultant, IBM Champion, CMMS, EAM, Dubai, Riyadh, GCC" />
+  <!-- Favicon SVG inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230f62fe'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='bold' font-size='18' fill='white'>MS</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=IBM+Plex+Serif:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── IBM Carbon Token System ── */
+    :root {
+      --c-bg:         #161616;
+      --c-bg-02:      #1c1c1c;
+      --c-bg-03:      #262626;
+      --c-bg-04:      #393939;
+      --c-blue-60:    #0f62fe;
+      --c-blue-40:    #78a9ff;
+      --c-blue-30:    #a6c8ff;
+      --c-teal-40:    #3ddbd9;
+      --c-text-01:    #f4f4f4;
+      --c-text-02:    #c6c6c6;
+      --c-text-03:    #8d8d8d;
+      --c-border:     #393939;
+      --c-ibm-badge:  #be95ff;
+
+      --font-sans:  'IBM Plex Sans', sans-serif;
+      --font-mono:  'IBM Plex Mono', monospace;
+      --font-serif: 'IBM Plex Serif', serif;
+
+      --nav-h: 48px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--c-bg);
+      color: var(--c-text-01);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    a { color: var(--c-blue-40); text-decoration: none; }
+    a:hover { text-decoration: underline; color: var(--c-blue-30); }
+
+    /* ── LANG TOGGLE ── */
+    .lang-bar {
+      position: fixed;
+      top: 0; right: 0;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: var(--nav-h);
+      padding-right: 1rem;
+    }
+    .lang-btn {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 6px 12px;
+      border: 1px solid var(--c-border);
+      background: transparent;
+      color: var(--c-text-03);
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .lang-btn.active {
+      background: var(--c-blue-60);
+      color: #fff;
+      border-color: var(--c-blue-60);
+    }
+    .lang-btn:hover:not(.active) { color: var(--c-text-01); border-color: var(--c-text-02); }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      background: rgba(22,22,22,.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--c-border);
+      display: flex;
+      align-items: center;
+      padding: 0 1.5rem;
+      z-index: 100;
+      gap: 2rem;
+    }
+    .nav-logo {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--c-text-01);
+      letter-spacing: .04em;
+      white-space: nowrap;
+    }
+    .nav-logo span { color: var(--c-blue-40); }
+    .nav-links {
+      display: flex;
+      gap: 0;
+      list-style: none;
+      margin-left: auto;
+      margin-right: 5rem;
+    }
+    .nav-links a {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      color: var(--c-text-02);
+      padding: 0 1rem;
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid transparent;
+      transition: all .15s;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--c-text-01);
+      border-bottom-color: var(--c-blue-60);
+      text-decoration: none;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: calc(var(--nav-h) + 4rem) 2rem 4rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--c-blue-40);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: var(--c-blue-60);
+    }
+    .hero-name {
+      font-family: var(--font-serif);
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      font-weight: 300;
+      line-height: 1.05;
+      color: var(--c-text-01);
+      margin-bottom: .5rem;
+    }
+    .hero-name strong {
+      font-weight: 600;
+      color: #fff;
+    }
+    .hero-title {
+      font-family: var(--font-sans);
+      font-size: clamp(1rem, 2vw, 1.4rem);
+      font-weight: 300;
+      color: var(--c-text-02);
+      margin-bottom: 2.5rem;
+      max-width: 680px;
+    }
+    .hero-title em {
+      font-style: normal;
+      color: var(--c-teal-40);
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      margin-bottom: 3rem;
+    }
+    .badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: .06em;
+      padding: 4px 10px;
+      border: 1px solid;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .badge-champion { border-color: var(--c-ibm-badge); color: var(--c-ibm-badge); }
+    .badge-exp      { border-color: var(--c-blue-40); color: var(--c-blue-40); }
+    .badge-open     { border-color: var(--c-teal-40); color: var(--c-teal-40); }
+    .badge-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .btn-primary {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 12px 24px;
+      background: var(--c-blue-60);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background .15s;
+    }
+    .btn-primary:hover { background: #0353e9; color: #fff; text-decoration: none; }
+    .btn-ghost {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 400;
+      padding: 12px 24px;
+      background: transparent;
+      color: var(--c-text-01);
+      border: 1px solid var(--c-border);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: border-color .15s;
+    }
+    .btn-ghost:hover { border-color: var(--c-blue-40); color: var(--c-blue-40); text-decoration: none; }
+
+    .hero-grid {
+      position: absolute;
+      right: 0; top: 0;
+      width: 40%;
+      height: 100%;
+      pointer-events: none;
+      opacity: .06;
+      background-image:
+        linear-gradient(var(--c-blue-60) 1px, transparent 1px),
+        linear-gradient(90deg, var(--c-blue-60) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    /* ── SECTIONS ── */
+    section {
+      padding: 5rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--c-border);
+      padding-bottom: 1rem;
+    }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--c-blue-40);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 300;
+      color: var(--c-text-01);
+    }
+
+    /* ── EXPERTISE / SKILLS ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1px;
+      background: var(--c-border);
+    }
+    .skill-card {
+      background: var(--c-bg-02);
+      padding: 1.5rem;
+      transition: background .15s;
+    }
+    .skill-card:hover { background: var(--c-bg-03); }
+    .skill-card-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--c-blue-40);
+      margin-bottom: .75rem;
+    }
+    .skill-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--c-text-01);
+      margin-bottom: .5rem;
+    }
+    .skill-card-body {
+      font-size: 13px;
+      color: var(--c-text-02);
+      line-height: 1.5;
+    }
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-top: .75rem;
+    }
+    .tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 8px;
+      background: var(--c-bg-04);
+      color: var(--c-text-03);
+      letter-spacing: .04em;
+    }
+
+    /* ── EXPERIENCE TIMELINE ── */
+    .timeline { display: flex; flex-direction: column; gap: 0; }
+    .tl-item {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 0 2rem;
+      position: relative;
+    }
+    .tl-item::before {
+      content: '';
+      position: absolute;
+      left: 180px;
+      top: 0; bottom: 0;
+      width: 1px;
+      background: var(--c-border);
+    }
+    .tl-item:last-child::before { display: none; }
+    .tl-date {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--c-text-03);
+      text-align: right;
+      padding: 1.5rem 0;
+      padding-right: 2rem;
+      line-height: 1.4;
+    }
+    .tl-body {
+      padding: 1.5rem 0 2rem 2rem;
+      border-left: 0;
+      position: relative;
+    }
+    .tl-body::before {
+      content: '';
+      position: absolute;
+      left: -5px; top: 1.9rem;
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      background: var(--c-blue-60);
+      border: 2px solid var(--c-bg);
+    }
+    .tl-company {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--c-blue-40);
+      letter-spacing: .06em;
+      margin-bottom: .25rem;
+    }
+    .tl-role {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--c-text-01);
+      margin-bottom: .4rem;
+    }
+    .tl-desc {
+      font-size: 13px;
+      color: var(--c-text-02);
+      line-height: 1.55;
+    }
+
+    /* ── PROJECTS ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1px;
+      background: var(--c-border);
+    }
+    .project-card {
+      background: var(--c-bg-02);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+      transition: background .15s;
+      cursor: default;
+    }
+    .project-card:hover { background: var(--c-bg-03); }
+    .project-sector {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--c-teal-40);
+    }
+    .project-client {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--c-text-01);
+    }
+    .project-scope {
+      font-size: 13px;
+      color: var(--c-text-02);
+      line-height: 1.5;
+      flex: 1;
+    }
+    .project-metrics {
+      display: flex;
+      gap: 1.5rem;
+      padding-top: .75rem;
+      border-top: 1px solid var(--c-border);
+    }
+    .metric { display: flex; flex-direction: column; gap: 2px; }
+    .metric-val {
+      font-family: var(--font-mono);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--c-blue-40);
+    }
+    .metric-lbl {
+      font-size: 11px;
+      color: var(--c-text-03);
+    }
+
+    /* ── ARTICLES ── */
+    .articles-list { display: flex; flex-direction: column; gap: 1px; background: var(--c-border); }
+    .article-row {
+      background: var(--c-bg-02);
+      padding: 1.5rem 1.75rem;
+      display: grid;
+      grid-template-columns: 80px 1fr auto;
+      gap: .5rem 1.5rem;
+      align-items: start;
+      transition: background .15s;
+    }
+    .article-row:hover { background: var(--c-bg-03); }
+    .article-date {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--c-text-03);
+      letter-spacing: .06em;
+      padding-top: 2px;
+    }
+    .article-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--c-text-01);
+      margin-bottom: .3rem;
+    }
+    .article-excerpt {
+      font-size: 12px;
+      color: var(--c-text-02);
+      line-height: 1.5;
+    }
+    .article-tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 3px 8px;
+      background: var(--c-bg-04);
+      color: var(--c-blue-40);
+      white-space: nowrap;
+      align-self: start;
+      margin-top: 2px;
+    }
+
+    /* ── CONTACT ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--c-border);
+    }
+    .contact-info {
+      background: var(--c-bg-02);
+      padding: 2.5rem;
+    }
+    .contact-form-wrap {
+      background: var(--c-bg-02);
+      padding: 2.5rem;
+    }
+    .contact-info-title {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+    }
+    .contact-line {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 1rem;
+      font-size: 13px;
+      color: var(--c-text-02);
+    }
+    .contact-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--c-bg-04);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .form-field { margin-bottom: 1rem; }
+    .form-label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: .06em;
+      color: var(--c-text-03);
+      margin-bottom: .4rem;
+      text-transform: uppercase;
+    }
+    .form-input {
+      width: 100%;
+      background: var(--c-bg-04);
+      border: 1px solid var(--c-border);
+      border-bottom-color: var(--c-text-03);
+      color: var(--c-text-01);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      padding: 10px 12px;
+      outline: none;
+      transition: border-color .15s;
+    }
+    .form-input:focus { border-bottom-color: var(--c-blue-60); }
+    textarea.form-input { min-height: 100px; resize: vertical; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--c-border);
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--c-text-03);
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .footer-links a {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--c-text-03);
+      letter-spacing: .06em;
+    }
+    .footer-links a:hover { color: var(--c-blue-40); text-decoration: none; }
+
+    /* ── DIVIDER ── */
+    .full-divider {
+      border: none;
+      border-top: 1px solid var(--c-border);
+      margin: 0;
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 768px) {
+      .tl-item { grid-template-columns: 1fr; }
+      .tl-item::before { display: none; }
+      .tl-date { text-align: left; padding: .5rem 0 0; }
+      .tl-body { padding: .5rem 0 1.5rem 1rem; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .hero-grid { display: none; }
+      .article-row { grid-template-columns: 60px 1fr; }
+      .article-tag { display: none; }
+    }
+
+    /* ── HAMBURGER ── */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid var(--c-border);
+      padding: 6px;
+      margin-left: auto;
+      margin-right: 5.5rem;
+      flex-shrink: 0;
+    }
+    .hamburger span {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: var(--c-text-01);
+      transition: all .2s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+    /* Mobile dropdown menu */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: var(--nav-h);
+      left: 0; right: 0;
+      background: var(--c-bg-02);
+      border-bottom: 1px solid var(--c-border);
+      z-index: 99;
+      flex-direction: column;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      color: var(--c-text-02);
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--c-border);
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .mobile-menu a:hover { color: var(--c-text-01); background: var(--c-bg-03); text-decoration: none; }
+
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+    }
+
+    /* ── LANG HIDDEN ── */
+    [data-lang] { display: none; }
+    [data-lang].visible { display: block; }
+    .inline-fr, .inline-en { display: none; }
+    .inline-fr.visible, .inline-en.visible { display: inline; }
+    .block-fr, .block-en { display: none; }
+    .block-fr.visible, .block-en.visible { display: block; }
+    .flex-fr, .flex-en { display: none; }
+    .flex-fr.visible, .flex-en.visible { display: flex; }
+  </style>
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <div class="nav-logo">MS <span>//</span> IBM Maximo</div>
+  <ul class="nav-links">
+    <li><a href="#expertise" class="nav-link" data-target="expertise">
+      <span class="inline-en visible">Expertise</span><span class="inline-fr">Expertise</span>
+    </a></li>
+    <li><a href="#experience" class="nav-link" data-target="experience">
+      <span class="inline-en visible">Experience</span><span class="inline-fr">Expérience</span>
+    </a></li>
+    <li><a href="#projects" class="nav-link" data-target="projects">
+      <span class="inline-en visible">Projects</span><span class="inline-fr">Projets</span>
+    </a></li>
+    <li><a href="#articles" class="nav-link" data-target="articles">
+      <span class="inline-en visible">Articles</span><span class="inline-fr">Articles</span>
+    </a></li>
+    <li><a href="#contact" class="nav-link" data-target="contact">
+      <span class="inline-en visible">Contact</span><span class="inline-fr">Contact</span>
+    </a></li>
+  </ul>
+  <!-- Hamburger (mobile only) -->
+  <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile dropdown -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#expertise" onclick="closeMobileMenu()">
+    <span class="inline-en visible">Expertise</span><span class="inline-fr">Expertise</span>
+  </a>
+  <a href="#experience" onclick="closeMobileMenu()">
+    <span class="inline-en visible">Experience</span><span class="inline-fr">Expérience</span>
+  </a>
+  <a href="#projects" onclick="closeMobileMenu()">
+    <span class="inline-en visible">Projects</span><span class="inline-fr">Projets</span>
+  </a>
+  <a href="#articles" onclick="closeMobileMenu()">
+    <span class="inline-en visible">Articles</span><span class="inline-fr">Articles</span>
+  </a>
+  <a href="#contact" onclick="closeMobileMenu()">
+    <span class="inline-en visible">Contact</span><span class="inline-fr">Contact</span>
+  </a>
+</div>
+
+<!-- ── LANG TOGGLE ── -->
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('en')">EN</button>
+  <button class="lang-btn" onclick="setLang('fr')">FR</button>
+</div>
+
+<!-- ══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<div class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-eyebrow">
+    <span class="inline-en visible">Senior Consultant · Open to GCC</span>
+    <span class="inline-fr">Consultant Senior · Disponible GCC</span>
+  </div>
+  <h1 class="hero-name"><strong>Mahdi</strong> Salah</h1>
+  <p class="hero-title">
+    <span class="inline-en visible">IBM Maximo &amp; MAS 9 Consultant — <em>IBM Champion 2026</em> — 22 years delivering EAM/CMMS across energy, telecom &amp; banking sectors.</span>
+    <span class="inline-fr">Consultant IBM Maximo &amp; MAS 9 — <em>IBM Champion 2026</em> — 22 ans d'expérience en EAM/CMMS dans les secteurs énergie, télécom et banque.</span>
+  </p>
+  <div class="badge-row">
+    <span class="badge badge-champion">⬡ IBM Champion 2026</span>
+    <span class="badge badge-exp">22 YRS IT</span>
+    <span class="badge badge-exp">Maximo 7.6</span>
+    <span class="badge badge-exp">MAS 9 / OpenShift</span>
+    <span class="badge badge-open"><span class="badge-dot"></span>
+      <span class="inline-en visible">Open to GCC · Dubai · Riyadh · Doha</span>
+      <span class="inline-fr">Disponible GCC · Dubaï · Riyad · Doha</span>
+    </span>
+  </div>
+  <div class="hero-cta">
+    <a href="#contact" class="btn-primary">
+      <span class="inline-en visible">Get in touch →</span>
+      <span class="inline-fr">Me contacter →</span>
+    </a>
+    <a href="#articles" class="btn-ghost">
+      <span class="inline-en visible">Read technical articles</span>
+      <span class="inline-fr">Lire mes articles</span>
+    </a>
+  </div>
+</div>
+
+<hr class="full-divider" />
+
+<!-- ══════════════════════════════════════
+     EXPERTISE
+═══════════════════════════════════════ -->
+<section id="expertise">
+  <div class="section-header">
+    <span class="section-label">01</span>
+    <h2 class="section-title">
+      <span class="inline-en visible">Technical Expertise</span>
+      <span class="inline-fr">Expertise Technique</span>
+    </h2>
+  </div>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-card-label">Core Platform</div>
+      <div class="skill-card-title">IBM Maximo 7.6</div>
+      <div class="skill-card-body">
+        <span class="inline-en visible">Application configuration, Database Config, Security Groups, Workflow, Escalations, Application Designer, Migration Manager.</span>
+        <span class="inline-fr">Configuration applicative, Database Config, Groupes de sécurité, Workflow, Escalations, Application Designer, Migration Manager.</span>
+      </div>
+      <div class="tag-row">
+        <span class="tag">MBO / AppBean</span><span class="tag">Automation Scripts</span><span class="tag">BIRT</span><span class="tag">MIF</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-label">Next-Gen Platform</div>
+      <div class="skill-card-title">IBM MAS 9 / OpenShift</div>
+      <div class="skill-card-body">
+        <span class="inline-en visible">MAS Manage deployment on Red Hat OpenShift, Db2u, MongoDB, OpenSearch, Kafka / AMQ Streams, IAM/LDAP SSO, Prometheus/Grafana.</span>
+        <span class="inline-fr">Déploiement MAS Manage sur OpenShift, Db2u, MongoDB, OpenSearch, Kafka / AMQ Streams, IAM/LDAP SSO, Prometheus/Grafana.</span>
+      </div>
+      <div class="tag-row">
+        <span class="tag">AppPoints</span><span class="tag">SLS / DRO</span><span class="tag">Carbon UI</span><span class="tag">Operators</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-label">Integration</div>
+      <div class="skill-card-title">
+        <span class="inline-en visible">MIF & API Integration</span>
+        <span class="inline-fr">Intégration MIF & API</span>
+      </div>
+      <div class="skill-card-body">
+        <span class="inline-en visible">JMS/Kafka messaging, Object Structures, Enterprise Services, REST/SOAP APIs, App Connect, Azure REST API.</span>
+        <span class="inline-fr">Messagerie JMS/Kafka, Object Structures, Enterprise Services, APIs REST/SOAP, App Connect, Azure REST API.</span>
+      </div>
+      <div class="tag-row">
+        <span class="tag">WebSphere</span><span class="tag">IHS Plugin</span><span class="tag">SSL/TLS</span><span class="tag">Azure</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-label">Development</div>
+      <div class="skill-card-title">
+        <span class="inline-en visible">Scripting & Database</span>
+        <span class="inline-fr">Scripting & Base de données</span>
+      </div>
+      <div class="skill-card-body">
+        <span class="inline-en visible">Jython automation scripts, custom CronTasks, SQL Server / DB2 views, T-SQL stored procedures, PowerShell pipelines.</span>
+        <span class="inline-fr">Scripts Jython, CronTasks personnalisés, vues SQL Server / DB2, procédures T-SQL, pipelines PowerShell.</span>
+      </div>
+      <div class="tag-row">
+        <span class="tag">Jython</span><span class="tag">SQL Server</span><span class="tag">DB2</span><span class="tag">PowerShell</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-label">Reporting</div>
+      <div class="skill-card-title">BIRT / Analytics</div>
+      <div class="skill-card-body">
+        <span class="inline-en visible">BIRT report design, custom datasets, WebSphere session isolation (JSESSIONID path), Maximo reporting integration.</span>
+        <span class="inline-fr">Conception de rapports BIRT, datasets personnalisés, isolation de session WebSphere (JSESSIONID path), intégration reporting Maximo.</span>
+      </div>
+      <div class="tag-row">
+        <span class="tag">BIRT Studio</span><span class="tag">maxrep</span><span class="tag">WAS</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-label">Governance</div>
+      <div class="skill-card-title">
+        <span class="inline-en visible">Project & Quality Management</span>
+        <span class="inline-fr">Gestion de projet & Qualité</span>
+      </div>
+      <div class="skill-card-body">
+        <span class="inline-en visible">ISO 9001 & 27001 dual certification, project steering, client delivery management, chiffrage & proposal writing.</span>
+        <span class="inline-fr">Double certification ISO 9001 & 27001, pilotage de projets, gestion de livraison client, chiffrage et rédaction de propositions.</span>
+      </div>
+      <div class="tag-row">
+        <span class="tag">ISO 9001</span><span class="tag">ISO 27001</span><span class="tag">PMO</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="full-divider" />
+
+<!-- ══════════════════════════════════════
+     EXPERIENCE
+═══════════════════════════════════════ -->
+<section id="experience">
+  <div class="section-header">
+    <span class="section-label">02</span>
+    <h2 class="section-title">
+      <span class="inline-en visible">Experience</span>
+      <span class="inline-fr">Expérience</span>
+    </h2>
+  </div>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-date">2022 → <span class="inline-en visible">Present</span><span class="inline-fr">Aujourd'hui</span></div>
+      <div class="tl-body">
+        <div class="tl-company">SINORFI · SUEZ (Mission POA)</div>
+        <div class="tl-role">
+          <span class="inline-en visible">Senior IBM Maximo Techno-Functional Consultant</span>
+          <span class="inline-fr">Consultant Senior Techno-Fonctionnel IBM Maximo</span>
+        </div>
+        <div class="tl-desc">
+          <span class="inline-en visible">Leading ACTIMEO V12 EAM programme across 3 SUEZ sites (1,200+ users). Delivering eMAT, TRIMECA, IPOP, MAXIMO R&V sub-projects. WebSphere/IHS integration architecture, Azure Files, MIF/REST integrations, SQL Server views, BIRT reporting, ISO 27001 project management.</span>
+          <span class="inline-fr">Pilotage du programme EAM ACTIMEO V12 sur 3 sites SUEZ (1 200+ utilisateurs). Sous-projets eMAT, TRIMECA, IPOP, MAXIMO R&V. Architecture WebSphere/IHS, Azure Files, intégrations MIF/REST, vues SQL Server, reporting BIRT, pilotage ISO 27001.</span>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Maximo 7.6</span><span class="tag">WebSphere</span><span class="tag">Azure</span><span class="tag">SQL Server</span><span class="tag">BIRT</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">2020 → 2022</div>
+      <div class="tl-body">
+        <div class="tl-company">SINORFI · ENI Tunisia</div>
+        <div class="tl-role">
+          <span class="inline-en visible">IBM Maximo Consultant — Oil & Gas</span>
+          <span class="inline-fr">Consultant IBM Maximo — Pétrole & Gaz</span>
+        </div>
+        <div class="tl-desc">
+          <span class="inline-en visible">Maximo EAM implementation and integration for oil & gas upstream operations. MIF configuration, workflow design, reporting.</span>
+          <span class="inline-fr">Implémentation et intégration Maximo EAM pour opérations upstream pétrolières. Configuration MIF, conception workflow, reporting.</span>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Maximo 7.6</span><span class="tag">MIF</span><span class="tag">Oil & Gas</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">2017 → 2020</div>
+      <div class="tl-body">
+        <div class="tl-company">SINORFI · STEG</div>
+        <div class="tl-role">
+          <span class="inline-en visible">IBM Maximo Consultant — Energy / Utilities</span>
+          <span class="inline-fr">Consultant IBM Maximo — Énergie / Utilities</span>
+        </div>
+        <div class="tl-desc">
+          <span class="inline-en visible">Maximo deployment for national electricity and gas utility. Asset management configuration, integration, user training.</span>
+          <span class="inline-fr">Déploiement Maximo pour la compagnie nationale d'électricité et de gaz. Configuration gestion d'actifs, intégrations, formation utilisateurs.</span>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Maximo 7.6</span><span class="tag">Energy</span><span class="tag">Utilities</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">2013 → 2017</div>
+      <div class="tl-body">
+        <div class="tl-company">SINORFI · Tunisia Telecom</div>
+        <div class="tl-role">
+          <span class="inline-en visible">IBM Maximo Consultant — Telecom</span>
+          <span class="inline-fr">Consultant IBM Maximo — Télécoms</span>
+        </div>
+        <div class="tl-desc">
+          <span class="inline-en visible">National telecom operator rollout — 12 agencies, 400+ users. Network asset management, custom workflows, BIRT reports.</span>
+          <span class="inline-fr">Déploiement opérateur télécom national — 12 agences, 400+ utilisateurs. Gestion des actifs réseau, workflows personnalisés, rapports BIRT.</span>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Maximo 7.6</span><span class="tag">Telecom</span><span class="tag">400+ users</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">2010 → 2013</div>
+      <div class="tl-body">
+        <div class="tl-company">Algeria Gulf Bank</div>
+        <div class="tl-role">
+          <span class="inline-en visible">IBM Maximo Consultant — Banking</span>
+          <span class="inline-fr">Consultant IBM Maximo — Banque</span>
+        </div>
+        <div class="tl-desc">
+          <span class="inline-en visible">Facility and asset management deployment for banking infrastructure. First major cross-border Maximo project.</span>
+          <span class="inline-fr">Déploiement gestion des actifs et facilities pour infrastructure bancaire. Premier projet Maximo transfrontalier majeur.</span>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Maximo</span><span class="tag">Banking</span><span class="tag">Algeria</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="full-divider" />
+
+<!-- ══════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════ -->
+<section id="projects">
+  <div class="section-header">
+    <span class="section-label">03</span>
+    <h2 class="section-title">
+      <span class="inline-en visible">Key Projects</span>
+      <span class="inline-fr">Projets Clés</span>
+    </h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-sector">
+        <span class="inline-en visible">Energy · Water Treatment</span>
+        <span class="inline-fr">Énergie · Traitement de l'eau</span>
+      </div>
+      <div class="project-client">SUEZ — ACTIMEO V12</div>
+      <div class="project-scope">
+        <span class="inline-en visible">End-to-end EAM programme on IBM Maximo 7.6. Sub-projects: eMAT (material management), TRIMECA (preventive maintenance), IPOP (integration platform), MAXIMO R&V (roles & validations). WebSphere/IHS architecture, Azure Files integration, BIRT custom reporting.</span>
+        <span class="inline-fr">Programme EAM bout-en-bout sur IBM Maximo 7.6. Sous-projets : eMAT (gestion matériaux), TRIMECA (maintenance préventive), IPOP (plateforme d'intégration), MAXIMO R&V (rôles & validations). Architecture WebSphere/IHS, intégration Azure Files, reporting BIRT.</span>
+      </div>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-val">3</span><span class="metric-lbl">
+          <span class="inline-en visible">Sites</span><span class="inline-fr">Sites</span>
+        </span></div>
+        <div class="metric"><span class="metric-val">1,200+</span><span class="metric-lbl">
+          <span class="inline-en visible">Users</span><span class="inline-fr">Utilisateurs</span>
+        </span></div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-sector">
+        <span class="inline-en visible">Telecom · National Operator</span>
+        <span class="inline-fr">Télécom · Opérateur National</span>
+      </div>
+      <div class="project-client">Tunisia Telecom</div>
+      <div class="project-scope">
+        <span class="inline-en visible">National Maximo rollout for the largest Tunisian telecom operator. Network infrastructure asset management, custom workflows, BIRT reporting, multi-agency deployment.</span>
+        <span class="inline-fr">Déploiement national Maximo pour le plus grand opérateur télécom tunisien. Gestion des actifs réseau, workflows personnalisés, reporting BIRT, déploiement multi-agences.</span>
+      </div>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-val">12</span><span class="metric-lbl">
+          <span class="inline-en visible">Agencies</span><span class="inline-fr">Agences</span>
+        </span></div>
+        <div class="metric"><span class="metric-val">400+</span><span class="metric-lbl">
+          <span class="inline-en visible">Users</span><span class="inline-fr">Utilisateurs</span>
+        </span></div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-sector">
+        <span class="inline-en visible">Energy · Oil & Gas</span>
+        <span class="inline-fr">Énergie · Pétrole & Gaz</span>
+      </div>
+      <div class="project-client">ENI Tunisia</div>
+      <div class="project-scope">
+        <span class="inline-en visible">IBM Maximo EAM integration for upstream oil & gas operations. Critical equipment maintenance, MIF integration with upstream SCADA systems, custom reporting.</span>
+        <span class="inline-fr">Intégration EAM IBM Maximo pour opérations pétrolières upstream. Maintenance équipements critiques, intégration MIF avec SCADA upstream, reporting personnalisé.</span>
+      </div>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-val">O&G</span><span class="metric-lbl">
+          <span class="inline-en visible">Upstream</span><span class="inline-fr">Amont</span>
+        </span></div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-sector">
+        <span class="inline-en visible">Energy · National Utility</span>
+        <span class="inline-fr">Énergie · Utilité Nationale</span>
+      </div>
+      <div class="project-client">STEG</div>
+      <div class="project-scope">
+        <span class="inline-en visible">Maximo deployment for Tunisia's national electricity and gas company. Asset lifecycle management, preventive maintenance plans, integration with operational systems.</span>
+        <span class="inline-fr">Déploiement Maximo pour la compagnie nationale d'électricité et de gaz de Tunisie. Gestion du cycle de vie des actifs, plans de maintenance préventive, intégration systèmes opérationnels.</span>
+      </div>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-val">EAM</span><span class="metric-lbl">
+          <span class="inline-en visible">National</span><span class="inline-fr">National</span>
+        </span></div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-sector">
+        <span class="inline-en visible">Banking · Facility Management</span>
+        <span class="inline-fr">Banque · Gestion des installations</span>
+      </div>
+      <div class="project-client">Algeria Gulf Bank</div>
+      <div class="project-scope">
+        <span class="inline-en visible">Cross-border Maximo deployment for banking infrastructure management. Facilities, assets, and maintenance operations across bank branches.</span>
+        <span class="inline-fr">Déploiement Maximo transfrontalier pour gestion d'infrastructure bancaire. Facilities, actifs et opérations de maintenance dans les agences bancaires.</span>
+      </div>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-val">Banking</span><span class="metric-lbl">Algeria</span></div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-sector">MAS 9 · OpenShift Migration</div>
+      <div class="project-client">
+        <span class="inline-en visible">Maximo → MAS 9 Migration</span>
+        <span class="inline-fr">Migration Maximo → MAS 9</span>
+      </div>
+      <div class="project-scope">
+        <span class="inline-en visible">Migration architecture from Maximo 7.6.1.x to IBM MAS 9 on Red Hat OpenShift. 6-month delivery, zero incidents. Db2u, MongoDB, Kafka AMQ Streams, IAM/LDAP, Prometheus/Grafana monitoring setup.</span>
+        <span class="inline-fr">Architecture de migration de Maximo 7.6.1.x vers IBM MAS 9 sur Red Hat OpenShift. Livraison en 6 mois, zéro incident. Db2u, MongoDB, Kafka AMQ Streams, IAM/LDAP, monitoring Prometheus/Grafana.</span>
+      </div>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-val">6</span><span class="metric-lbl">
+          <span class="inline-en visible">Months</span><span class="inline-fr">Mois</span>
+        </span></div>
+        <div class="metric"><span class="metric-val">0</span><span class="metric-lbl">
+          <span class="inline-en visible">Incidents</span><span class="inline-fr">Incidents</span>
+        </span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="full-divider" />
+
+<!-- ══════════════════════════════════════
+     ARTICLES
+═══════════════════════════════════════ -->
+<section id="articles">
+  <div class="section-header">
+    <span class="section-label">04</span>
+    <h2 class="section-title">
+      <span class="inline-en visible">Technical Articles</span>
+      <span class="inline-fr">Articles Techniques</span>
+    </h2>
+  </div>
+  <div class="articles-list">
+
+    <div class="article-row">
+      <div class="article-date">2025</div>
+      <div>
+        <div class="article-title">
+          <span class="inline-en visible">MIF Architecture: From Maximo 7.6 JMS to MAS 9 Kafka on OpenShift</span>
+          <span class="inline-fr">Architecture MIF : de Maximo 7.6 JMS à MAS 9 Kafka sur OpenShift</span>
+        </div>
+        <div class="article-excerpt">
+          <span class="inline-en visible">Deep dive into the Maximo Integration Framework evolution — JMS queues on WebSphere, Kafka AMQ Streams on OpenShift, Keycloak IAM, and App Connect patterns for enterprise integrations.</span>
+          <span class="inline-fr">Analyse approfondie de l'évolution du MIF — files JMS sur WebSphere, Kafka AMQ Streams sur OpenShift, IAM Keycloak et patterns App Connect pour les intégrations entreprise.</span>
+        </div>
+      </div>
+      <span class="article-tag">MIF · Kafka</span>
+    </div>
+
+    <div class="article-row">
+      <div class="article-date">2025</div>
+      <div>
+        <div class="article-title">
+          <span class="inline-en visible">Diagnosing JMS Deadlocks & Silent QUEUED Messages in Maximo</span>
+          <span class="inline-fr">Diagnostic des deadlocks JMS et messages QUEUED silencieux dans Maximo</span>
+        </div>
+        <div class="article-excerpt">
+          <span class="inline-en visible">Root cause analysis of JMSQSEQ CronTask failures after DB2/SQL Server timeout — symptoms, WebSphere queue inspection, and resolution patterns without data loss.</span>
+          <span class="inline-fr">Analyse des causes de défaillances du CronTask JMSQSEQ après timeout DB2/SQL Server — symptômes, inspection des files WebSphere et patterns de résolution sans perte de données.</span>
+        </div>
+      </div>
+      <span class="article-tag">JMS · WebSphere</span>
+    </div>
+
+    <div class="article-row">
+      <div class="article-date">2025</div>
+      <div>
+        <div class="article-title">
+          <span class="inline-en visible">BIRT & Maximo Session Cookie Conflict: JSESSIONID Path Isolation on WebSphere</span>
+          <span class="inline-fr">Conflit cookie de session BIRT & Maximo : isolation JSESSIONID Path sur WebSphere</span>
+        </div>
+        <div class="article-excerpt">
+          <span class="inline-en visible">Solving the /maximo vs /maxrep JSESSIONID cookie collision causing authentication drops between Maximo and BIRT Viewer on the same WAS instance.</span>
+          <span class="inline-fr">Résolution de la collision cookie JSESSIONID /maximo vs /maxrep provoquant des pertes d'authentification entre Maximo et BIRT Viewer sur la même instance WAS.</span>
+        </div>
+      </div>
+      <span class="article-tag">BIRT · WAS</span>
+    </div>
+
+    <div class="article-row">
+      <div class="article-date">2025</div>
+      <div>
+        <div class="article-title">
+          <span class="inline-en visible">IBM MAS 9: Health, Predict & Monitor — AI Capabilities for EAM</span>
+          <span class="inline-fr">IBM MAS 9 : Health, Predict & Monitor — Capacités IA pour l'EAM</span>
+        </div>
+        <div class="article-excerpt">
+          <span class="inline-en visible">Overview of IBM MAS AI applications — asset health scoring, predictive failure models, and IoT sensor integration via Monitor — and how they extend classical Maximo EAM.</span>
+          <span class="inline-fr">Tour d'horizon des applications IA d'IBM MAS — scoring de santé des actifs, modèles de défaillance prédictifs et intégration capteurs IoT via Monitor — et leur extension de l'EAM Maximo classique.</span>
+        </div>
+      </div>
+      <span class="article-tag">MAS 9 · AI</span>
+    </div>
+
+    <div class="article-row">
+      <div class="article-date">2024</div>
+      <div>
+        <div class="article-title">
+          <span class="inline-en visible">Maximo → SAMP Digital Twin: PowerShell + T-SQL Sync Pipeline</span>
+          <span class="inline-fr">Maximo → SAMP Digital Twin : pipeline de synchronisation PowerShell + T-SQL</span>
+        </div>
+        <div class="article-excerpt">
+          <span class="inline-en visible">Architecture of a nightly ETL pipeline syncing Maximo asset hierarchy to a Digital Twin platform via REST API — security patterns, SQL design, and scheduling on Windows Task Scheduler.</span>
+          <span class="inline-fr">Architecture d'un pipeline ETL nocturne synchronisant la hiérarchie d'actifs Maximo vers une plateforme Digital Twin via REST API — patterns sécurité, conception SQL et planification.</span>
+        </div>
+      </div>
+      <span class="article-tag">Integration · SQL</span>
+    </div>
+
+  </div>
+</section>
+
+<hr class="full-divider" />
+
+<!-- ══════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════ -->
+<section id="contact">
+  <div class="section-header">
+    <span class="section-label">05</span>
+    <h2 class="section-title">
+      <span class="inline-en visible">Contact</span>
+      <span class="inline-fr">Contact</span>
+    </h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-info-title">
+        <span class="inline-en visible">Open to GCC Opportunities</span>
+        <span class="inline-fr">Disponible pour des opportunités GCC</span>
+      </div>
+      <p style="font-size:13px;color:var(--c-text-02);margin-bottom:1.5rem;line-height:1.6;">
+        <span class="inline-en visible">Senior IBM Maximo & MAS 9 Consultant — IBM Champion 2026 — available for relocation to Dubai, Riyadh, Doha, or Abu Dhabi. 22 years delivering EAM/CMMS across energy, telecom, and banking.</span>
+        <span class="inline-fr">Consultant Senior IBM Maximo & MAS 9 — IBM Champion 2026 — disponible pour relocalisation à Dubaï, Riyad, Doha ou Abu Dhabi. 22 ans de livraison EAM/CMMS dans l'énergie, les télécoms et la banque.</span>
+      </p>
+      <div class="contact-line">
+        <div class="contact-icon">✉</div>
+        <span>mahdi.salah@sinorfi.com</span>
+      </div>
+      <div class="contact-line">
+        <div class="contact-icon">in</div>
+        <span>linkedin.com/in/mahdi-salah</span>
+      </div>
+      <div class="contact-line">
+        <div class="contact-icon">⬡</div>
+        <span>IBM Champion 2026 — IBM TechXchange Community</span>
+      </div>
+      <div class="contact-line">
+        <div class="contact-icon">📍</div>
+        <span>
+          <span class="inline-en visible">Tunis, Tunisia · Open to GCC relocation</span>
+          <span class="inline-fr">Tunis, Tunisie · Disponible relocalisation GCC</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <div class="form-field">
+        <label class="form-label">
+          <span class="inline-en visible">Name</span>
+          <span class="inline-fr">Nom</span>
+        </label>
+        <input id="f-name" type="text" class="form-input" placeholder="John Smith" />
+      </div>
+      <div class="form-field">
+        <label class="form-label">Email</label>
+        <input id="f-email" type="email" class="form-input" placeholder="john@company.com" />
+      </div>
+      <div class="form-field">
+        <label class="form-label">
+          <span class="inline-en visible">Subject</span>
+          <span class="inline-fr">Sujet</span>
+        </label>
+        <input id="f-subject" type="text" class="form-input" placeholder="IBM Maximo Project — GCC" />
+      </div>
+      <div class="form-field">
+        <label class="form-label">
+          <span class="inline-en visible">Message</span>
+          <span class="inline-fr">Message</span>
+        </label>
+        <textarea id="f-message" class="form-input" placeholder="..."></textarea>
+      </div>
+      <button id="f-submit" class="btn-primary" style="width:100%;justify-content:center;" onclick="handleContact()">
+        <span class="inline-en visible">Send message →</span>
+        <span class="inline-fr">Envoyer →</span>
+      </button>
+      <p id="f-status" style="font-size:12px;margin-top:.75rem;min-height:1.2em;"></p>
+      <p style="font-size:11px;color:var(--c-text-03);margin-top:.25rem;">
+        <span class="inline-en visible">To activate email delivery: create a free account on <a href="https://formspree.io" target="_blank">formspree.io</a> and replace <code style="background:var(--c-bg-04);padding:1px 4px;">YOUR_FORMSPREE_ID</code> in the script.</span>
+        <span class="inline-fr">Pour activer l'envoi : créez un compte gratuit sur <a href="https://formspree.io" target="_blank">formspree.io</a> et remplacez <code style="background:var(--c-bg-04);padding:1px 4px;">YOUR_FORMSPREE_ID</code> dans le script.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-copy">© 2026 Mahdi Salah · IBM Champion 2026 · Tunis, Tunisia</div>
+  <div class="footer-links">
+    <a href="#expertise">
+      <span class="inline-en visible">Expertise</span><span class="inline-fr">Expertise</span>
+    </a>
+    <a href="#articles">
+      <span class="inline-en visible">Articles</span><span class="inline-fr">Articles</span>
+    </a>
+    <a href="#contact"><span class="inline-en visible">Contact</span><span class="inline-fr">Contact</span></a>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════ -->
+<script>
+  // ── Language Switch ──
+  let currentLang = 'en';
+
+  function setLang(lang) {
+    currentLang = lang;
+    // Update html lang attribute for SEO/accessibility
+    document.getElementById('html-root').setAttribute('lang', lang);
+    document.querySelectorAll('.lang-btn').forEach(b => {
+      b.classList.toggle('active', b.textContent.trim().toLowerCase() === lang);
+    });
+    ['en','fr'].forEach(l => {
+      const active = l === lang;
+      document.querySelectorAll(`.inline-${l}`).forEach(el => el.classList.toggle('visible', active));
+      document.querySelectorAll(`.block-${l}`).forEach(el => el.classList.toggle('visible', active));
+      document.querySelectorAll(`.flex-${l}`).forEach(el => el.classList.toggle('visible', active));
+    });
+    // Re-apply lang to mobile menu spans too
+    document.querySelectorAll('.mobile-menu .inline-en, .mobile-menu .inline-fr').forEach(el => {
+      const isEn = el.classList.contains('inline-en');
+      el.classList.toggle('visible', isEn ? lang === 'en' : lang === 'fr');
+    });
+  }
+
+  // init
+  setLang('en');
+
+  // ── Scroll spy ──
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(l => l.classList.toggle('active', l.dataset.target === e.target.id));
+      }
+    });
+  }, { threshold: 0.3 });
+  sections.forEach(s => observer.observe(s));
+
+  // ── Hamburger menu ──
+  function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const btn  = document.getElementById('hamburger');
+    menu.classList.toggle('open');
+    btn.classList.toggle('open');
+  }
+  function closeMobileMenu() {
+    document.getElementById('mobile-menu').classList.remove('open');
+    document.getElementById('hamburger').classList.remove('open');
+  }
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    const menu = document.getElementById('mobile-menu');
+    const btn  = document.getElementById('hamburger');
+    if (menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      closeMobileMenu();
+    }
+  });
+
+  // ── Contact form via Formspree ──
+  // INSTRUCTIONS: 
+  //   1. Go to https://formspree.io → Create free account → New Form
+  //   2. Copy your form ID (e.g. "xpzgkqab")
+  //   3. Replace YOUR_FORMSPREE_ID below with your actual ID
+  const FORMSPREE_ID = 'YOUR_FORMSPREE_ID';
+
+  async function handleContact() {
+    const name    = document.getElementById('f-name').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const subject = document.getElementById('f-subject').value.trim();
+    const message = document.getElementById('f-message').value.trim();
+    const btn     = document.getElementById('f-submit');
+    const status  = document.getElementById('f-status');
+
+    if (!name || !email || !message) {
+      status.textContent = currentLang === 'en'
+        ? '⚠ Please fill in all required fields.'
+        : '⚠ Veuillez remplir tous les champs requis.';
+      status.style.color = 'var(--c-teal-40)';
+      return;
+    }
+
+    if (FORMSPREE_ID === 'YOUR_FORMSPREE_ID') {
+      status.textContent = currentLang === 'en'
+        ? '⚠ Configure your Formspree ID to enable email sending (see code comment).'
+        : '⚠ Configurez votre ID Formspree pour activer l\'envoi (voir commentaire dans le code).';
+      status.style.color = 'var(--c-teal-40)';
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = currentLang === 'en' ? 'Sending…' : 'Envoi…';
+    status.textContent = '';
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, subject, message })
+      });
+      if (res.ok) {
+        status.textContent = currentLang === 'en'
+          ? '✓ Message sent! I will reply within 24h.'
+          : '✓ Message envoyé ! Je vous répondrai sous 24h.';
+        status.style.color = 'var(--c-teal-40)';
+        document.getElementById('f-name').value = '';
+        document.getElementById('f-email').value = '';
+        document.getElementById('f-subject').value = '';
+        document.getElementById('f-message').value = '';
+      } else {
+        throw new Error('Server error');
+      }
+    } catch {
+      status.textContent = currentLang === 'en'
+        ? '✕ An error occurred. Please email directly: mahdi.salah@sinorfi.com'
+        : '✕ Une erreur est survenue. Contactez directement : mahdi.salah@sinorfi.com';
+      status.style.color = '#ff8389';
+    }
+    btn.disabled = false;
+    btn.innerHTML = currentLang === 'en' ? 'Send message →' : 'Envoyer →';
+  }
+</script>
+</body>
+</html>
